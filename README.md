@@ -3,7 +3,8 @@
 The Server Message Block (SMB) protocol was introduced by Microsoft and reimplemented by multiple vendors in order to maintain file exchange compatibility to Windows systems and services. The protocol in general is used for file exchange between Windows systems.
 
 ## using
-In order to reliably reproduce the bug, please rebuild the used test environment provided in this repo.
+
+please rebuild the used test environment provided in this repo.
 
    1. Download and start the RouterOs environment.
 
