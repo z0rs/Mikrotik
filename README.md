@@ -1,10 +1,8 @@
 # MikroTik SMB Remote Denial of Service (DoS)
 
-This report describes CVE-2020-11881, an unauthenticated remote DoS for MikroTik's SMB service running on RouterOs. The vulnerability allows an attacker to crash the running SMB service and was responsible disclosed to security<@>mikrotik.com on 06.04.2020.
-
 The Server Message Block (SMB) protocol was introduced by Microsoft and reimplemented by multiple vendors in order to maintain file exchange compatibility to Windows systems and services. The protocol in general is used for file exchange between Windows systems.
 
-## Reproducing the Bug
+## using
 In order to reliably reproduce the bug, please rebuild the used test environment provided in this repo.
 
    1. Download and start the RouterOs environment.
