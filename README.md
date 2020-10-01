@@ -34,12 +34,12 @@ In order to reliably reproduce the bug, please rebuild the used test environment
         ```
  3. The denial of service attack
 
-        The python3 script `cve-2020-11881.py` validates the availability of the SMB service before and after the
+        The python3 script `testing.py` validates the availability of the SMB service before and after the
         exploitation process. A successful execution will end up with the unavailability of the SMB service.
         Please execute the script as shown below.
 
         ```python
-        python3 cve-2020-11881.py --ip <RouterOs Ip>
+        python3 testing.py --ip <RouterOs Ip>
         ```
 
         Testing the SMB service with the following command will fail.
