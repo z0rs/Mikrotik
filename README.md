@@ -54,3 +54,4 @@ please rebuild the used test environment provided in this repo.
         ```bash
         sudo ./setupMikroTikEnvironment.sh
         ```
+Auto commit
