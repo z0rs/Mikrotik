@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
 
   # Schedule to run every 5 minutes
-  schedule:
-    - cron: "*/5 * * * *"
+  #schedule:
+   # - cron: "*/5 * * * *"
 
 jobs:
   # Auto commit job
